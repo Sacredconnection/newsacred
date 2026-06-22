@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import ProductCard from "@/components/ProductCard";
+import NewsletterForm from "@/components/NewsletterForm";
 import type { WooProduct, WooStoreCategory } from "@/types/woo";
 
 export const revalidate = 60;
@@ -193,10 +194,7 @@ export default async function HomePage() {
           <p className="eyebrow light">Free First Ceremony Guide</p>
           <h2>Begin your practice<br />with reverence.</h2>
           <p>Get our 12-page guide + 10% off your first order.</p>
-          <form className="newsletter-form" onSubmit={(e) => e.preventDefault()}>
-            <input type="email" placeholder="your@email.com" className="newsletter-input" required />
-            <button type="submit" className="btn-gold">Send My Guide</button>
-          </form>
+          <NewsletterForm />
           <p className="newsletter-note">No spam. Unsubscribe anytime.</p>
         </div>
       </section>
