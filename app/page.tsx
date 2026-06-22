@@ -21,11 +21,11 @@ export default function Home() {
           <a href="/" className="logo">Sacred <em>Connection</em></a>
           <nav>
             <ul className="nav">
-              <li><a href="#">Shop Hapé</a></li>
-              <li><a href="#">Tools & Kuripes</a></li>
-              <li><a href="#">Sacred Botanicals</a></li>
-              <li><a href="#">Our Tribes</a></li>
-              <li><a href="#">Learn</a></li>
+              <li><a href="/product-category/sacred-snuff-rape-tobacco/">Shop Hapé</a></li>
+              <li><a href="/product-category/accesories/">Tools & Kuripes</a></li>
+              <li><a href="/product-category/naturals/">Supplements</a></li>
+              <li><a href="/product-category/incense/">Incense</a></li>
+              <li><a href="/blog/">Learn</a></li>
             </ul>
           </nav>
           <div className="header-actions">
@@ -161,38 +161,38 @@ export default function Home() {
             Nine tribes, dozens of blends. Begin with what your spirit is asking for.
           </p>
           <div className="intention-grid">
-            <div className="intention-card">
+            <a href="/product-category/sacred-snuff-rape-tobacco/caboclo/" className="intention-card">
               <div className="intention-card-img ground">🌿</div>
               <div className="intention-card-body">
                 <p className="intention-label">For rooting &amp; presence</p>
                 <h3>Grounding</h3>
                 <p>Caboclo Paricá · Apurinã blends</p>
               </div>
-            </div>
-            <div className="intention-card">
+            </a>
+            <a href="/product-category/sacred-snuff-rape-tobacco/nukini-rape/" className="intention-card">
               <div className="intention-card-img clarity">⭐</div>
               <div className="intention-card-body">
                 <p className="intention-label">For focus &amp; vision</p>
                 <h3>Clarity</h3>
                 <p>Nukini 7 Stars · Bashawa</p>
               </div>
-            </div>
-            <div className="intention-card">
+            </a>
+            <a href="/product-category/sacred-snuff-rape-tobacco/shawadawa/" className="intention-card">
               <div className="intention-card-img cleanse">💨</div>
               <div className="intention-card-body">
                 <p className="intention-label">For release &amp; renewal</p>
                 <h3>Cleansing</h3>
                 <p>Shawãdawa Spiritual · Sananga</p>
               </div>
-            </div>
-            <div className="intention-card">
+            </a>
+            <a href="/product-category/sacred-snuff-rape-tobacco/yawanawa/" className="intention-card">
               <div className="intention-card-img connect">🌸</div>
               <div className="intention-card-body">
                 <p className="intention-label">For heart &amp; ceremony</p>
                 <h3>Connection</h3>
                 <p>Feminine Force · Heart of the Boa</p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>
@@ -446,29 +446,28 @@ export default function Home() {
             <div className="footer-col">
               <h4>Shop</h4>
               <ul>
-                <li><a href="#">All Hapé</a></li>
-                <li><a href="#">Tobacco-Free Blends</a></li>
-                <li><a href="#">Kuripes &amp; Tepis</a></li>
-                <li><a href="#">Sananga</a></li>
-                <li><a href="#">Ceremony Kits</a></li>
+                <li><a href="/product-category/sacred-snuff-rape-tobacco/">All Hapé</a></li>
+                <li><a href="/product-category/sacred-snuff-rape-tobacco/shamanic-snuff/shamanic-snuff-tobacco-free/">Tobacco-Free Blends</a></li>
+                <li><a href="/product-category/accesories/kuripe-pipe/">Kuripes &amp; Tepis</a></li>
+                <li><a href="/product-category/naturals/sananga/">Sananga</a></li>
+                <li><a href="/product-category/sacred-snuff-rape-tobacco/kits/">Ceremony Kits</a></li>
               </ul>
             </div>
             <div className="footer-col">
               <h4>Learn</h4>
               <ul>
-                <li><a href="#">What is Hapé?</a></li>
-                <li><a href="#">First Ceremony Guide</a></li>
-                <li><a href="#">Our Tribes</a></li>
-                <li><a href="#">Journal</a></li>
+                <li><a href="/rape-the-sacred-snuff-of-the-amazon/">What is Hapé?</a></li>
+                <li><a href="/blog/">Journal</a></li>
+                <li><a href="/about/">About Us</a></li>
               </ul>
             </div>
             <div className="footer-col">
               <h4>Support</h4>
               <ul>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Shipping &amp; Returns</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">My Account</a></li>
+                <li><a href="/contact/">Contact Us</a></li>
+                <li><a href="/refund_returns/">Shipping &amp; Returns</a></li>
+                <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="/my-account/">My Account</a></li>
               </ul>
             </div>
           </div>

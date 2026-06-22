@@ -41,13 +41,11 @@ export async function getProduct(id: number): Promise<WooProduct> {
 }
 
 export async function getProductBySlug(slug: string): Promise<WooProduct | null> {
-  const products = await getProducts({ per_page: 1 });
-  // Store API doesn't filter by slug directly — fetch with search and match
-  const all = await fetchWoo<WooProduct[]>(
-    `/products?search=${encodeURIComponent(slug)}&per_page=5`,
+  const products = await fetchWoo<WooProduct[]>(
+    `/products?slug=${encodeURIComponent(slug)}&per_page=1`,
     { next: { revalidate: 30 } }
   );
-  return all.find((p) => p.slug === slug) ?? null;
+  return products[0] ?? null;
 }
 
 /* ── Categories ── */
