@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const NAV = [
@@ -80,8 +81,8 @@ export default function Header() {
 
       <header className="header">
         <div className="header-inner">
-          <Link href="/" className="logo">
-            Sacred<em>Connection</em>
+          <Link href="/" className="logo-img">
+            <Image src="/logo.png" alt="Sacred Connection" width={180} height={60} priority style={{ objectFit: "contain" }} />
           </Link>
 
           <nav className="nav-desktop">

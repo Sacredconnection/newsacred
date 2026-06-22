@@ -54,6 +54,7 @@ ul { list-style: none; }
   font-weight: 600; color: var(--brown-deep); letter-spacing: 0.01em;
 }
 .logo em { font-style: normal; color: var(--sage); }
+.logo-img { display: flex; align-items: center; flex-shrink: 0; }
 .stars { color: var(--gold); letter-spacing: 1px; }
 
 /* ── BUTTONS ── */
